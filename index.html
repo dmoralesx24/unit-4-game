@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Reset Css -->
     <link rel="stylesheet" text="text/css" href="assets/css/reset.css">
+    <!-- BootStrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My Css stylesheet  -->
     <link rel="stylesheet" text="text/css" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Crystal Collector Game </title>
 </head>
+
 <body>
- 
- <script src="assets/Javascript/game.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <header>Crystal Collector!</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>random number</p>
+            </div>
+            <div class="col-md-2">
+                <p>wins and losses count</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="assets/images/redgem.png" alt="red gem">
+            <div class="col-md-2">
+                <img src="assets/images/bluegem.png" alt="blue gem ">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/images/yellowgem.jpeg" alt="yellow gem">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/images/greengem.png" alt="green gem">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Your total score is:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                users score 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- My Javascript -->
+    <script text="text/javascript" src="assets/Javascript/game.js"></script>
 </body>
+
 </html>
