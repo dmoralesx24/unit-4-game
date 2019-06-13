@@ -22,36 +22,33 @@
                 <header>Crystal Collector!</header>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col-md-8">
                 <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score
+                    goes above the random number.</p>
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p>Each time when the game starts, the game will change the values of each crystal</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-3">
-                <p>random number</p>
+                <p id="random"></p>
             </div>
             <div class="col-md-2">
-                <p>wins and losses count</p>
+                <p id="wins">Wins: </p>
+                <p id="losses">Losses: </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
-                <img src="assets/images/redgem.png" alt="red gem">
-            <div class="col-md-2">
-                <img src="assets/images/bluegem.png" alt="blue gem ">
-            </div>
-            <div class="col-md-2">
-                <img src="assets/images/yellowgem.jpeg" alt="yellow gem">
-            </div>
-            <div class="col-md-2">
-                <img src="assets/images/greengem.png" alt="green gem">
+            <div class="col-lg-9 crystals">
+
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-4">
                 <p>Your total score is:</p>
@@ -59,7 +56,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                users score 
+                <p id=totalScore></p>
             </div>
         </div>
     </div>
