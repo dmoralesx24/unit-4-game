@@ -1,3 +1,10 @@
+body {
+    background-image: url(../images/crystalwall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 .crystals {
     display: flex;
@@ -9,9 +16,44 @@
     height: 150px;
     width: 150px;
     border-radius: 4px;
+    background: white;
+    cursor: pointer;
 }
 
 img{
     width: 100px;
     height: 100px;
+}
+
+header{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#instructions {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#random-text, #winsOrLosses, #total {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center
+}
+
+ #random, #totalScore {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 640px) {
+   .crystal{
+    height: 100px;
+    width: 100px;
+   }
 }
